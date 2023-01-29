@@ -1,0 +1,57 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.card{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.img{
+    max-width:100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+.card-img-top{
+    object-fit: cover;
+    max-height: 200px;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #ffffff;
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
